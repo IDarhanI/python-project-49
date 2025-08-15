@@ -19,7 +19,8 @@ packages = ["brain_games"]
 dev = [
     "ruff>=0.12.9",
 ]
-tool.ruff]
+
+[tool.ruff]
 line-length = 80
 
 [tool.ruff.lint.per-file-ignores]
