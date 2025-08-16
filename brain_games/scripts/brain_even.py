@@ -33,7 +33,7 @@ def play_even_games():
 
 
 if __name__=="__main__":
-    play_even_games()
+    main()
 
 
         
