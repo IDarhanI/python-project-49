@@ -7,7 +7,7 @@ def is_even(num):
     return num % 2 == 0
 
 
-def play_even_games():
+def run_game():
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
@@ -16,13 +16,16 @@ def play_even_games():
         print(f"Question: {number}")
         answer = input("Your answer: ").lower().strip()
 
+
+        correct_answer = 'yes' if is_even(number) else 'no'
+
+
         if answer not in ('yes', 'no'):
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
 
-        correct_answer = 'yes' if is_even(number) else 'no'
-        
+
         if answer != correct_answer:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
@@ -34,7 +37,7 @@ def play_even_games():
 
 
 def main():
-    play_even_games()
+    run_game()
 
 
 if __name__ == "__main__":
