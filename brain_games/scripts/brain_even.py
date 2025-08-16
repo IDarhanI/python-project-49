@@ -32,7 +32,7 @@ def play_even_games():
     print(f"Congratulations, {name}!")
 
 
-if __name__=="__main__"
+if __name__=="__main__":
     play_even_games()
 
 
