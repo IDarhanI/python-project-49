@@ -16,15 +16,12 @@ def run_game():
         print(f"Question: {number}")
         answer = input("Your answer: ").lower().strip()
 
-
         correct_answer = 'yes' if is_even(number) else 'no'
-
 
         if answer not in ('yes', 'no'):
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
-
 
         if answer != correct_answer:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
