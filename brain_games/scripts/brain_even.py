@@ -1,5 +1,4 @@
 from random import randint
-import sys
 from brain_games.cli import welcome_user
 
 def is_even(num):
@@ -20,16 +19,22 @@ def play_even_games():
         if answer not in ('yes', 'no'):
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
-            sys.exit()
+            return
 
 
         correct_answer = 'yes' if is_even(number) else 'no'
         if answer != correct_answer:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
-            sys.exit()
+            return
+        
         print("Correct!")
+    
     print(f"Congratulations, {name}!")
+
+
+def main():
+    play_even_games()
 
 
 if __name__=="__main__":
