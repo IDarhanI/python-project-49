@@ -8,8 +8,8 @@ def calculate(num1, num2, operation):
     if operation == '+':
         return num1 + num2
     elif operation == '-':
-        return num1 - num2
-    else:  # '*'
+        return max(num1 - num2, num2 - num1)
+    else:  
         return num1 * num2
 
 
