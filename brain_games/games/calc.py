@@ -1,5 +1,4 @@
-from random import randint, choice
-
+from random import choice, randint
 
 RULES = "What is the result of the expression?"
 OPERATIONS = ['+', '-', '*']
