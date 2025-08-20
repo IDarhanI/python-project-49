@@ -1,4 +1,3 @@
-from random import randint
 
 RULES = 'Aswer "yes" if given number is prime. Otherwise answer "no".'
 
@@ -11,8 +10,14 @@ def is_prime(number):
     if number % 2 == 0:
         return False
     
-
     for divisor in range(3, int(number ** 0.5) + 1, 2):
         if number % divisor == 0:
             return False
     return True
+
+
+def generate_round():
+    number = randint(1, 100)
+    question = str(number)
+    correct_answer = "yes" if is_prime(number) else "no"
+    return question, correct_answer
