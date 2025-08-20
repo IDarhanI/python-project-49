@@ -18,7 +18,7 @@ def generate_round():
     length = randint (5, 10)
 
 
-    progression = generate_progression(start, step, lenght)
+    progression = generate_progression(start, step, length)
 
 
     hidden_index = randint(0, length - 1)
