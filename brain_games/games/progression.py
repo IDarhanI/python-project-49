@@ -14,7 +14,7 @@ def generate_progression(start, step, length):
 
 def generate_round():
     start = randint(1, 20)
-    step = randint(1, 10)
+    step = randint(2, 10)
     length = randint (5, 10)
 
 
