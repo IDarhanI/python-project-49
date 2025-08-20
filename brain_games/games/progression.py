@@ -21,7 +21,7 @@ def generate_round():
     progression = generate_progression(start, step, lenght)
 
 
-    hidden-index = randint(0, length - 1)
+    hidden_index = randint(0, length - 1)
     correct_answer = progression[hidden_index]
 
     progression[hidden_index] = ".."
