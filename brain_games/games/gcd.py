@@ -1,12 +1,15 @@
 from random import randint
 
+#правила
 RULES = "Find the greatest common divisor of given numbers."
 
 
+#используем алгоритм Евклида
 def calculeate_gcd(a, b):
     while b != 0:
         a, b = b, a % b 
     return a
+
 
 
 def generate_round():
