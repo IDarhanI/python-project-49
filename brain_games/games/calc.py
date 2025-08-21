@@ -1,13 +1,13 @@
 from random import choice, randint
 
-
-#правила
+# правила
 RULES = "What is the result of the expression?"
 
-#доступные операции
+# доступные операции
 OPERATIONS = ['+', '-', '*']
 
-#выполняет математическую операцию
+
+# выполняет математическую операцию
 def calculate(num1, num2, operation):
     if operation == '+':
         return num1 + num2
@@ -16,7 +16,8 @@ def calculate(num1, num2, operation):
     else:  
         return num1 * num2
 
-#генерация чисел, выбор операции, вопрос, вычисление ответа, возврат результата
+
+# генерация чисел, выбор операции, вопрос, вычисление ответа, возврат результата
 def generate_round():
     num1 = randint(1, 50)
     num2 = randint(1, 50)

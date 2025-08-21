@@ -1,11 +1,10 @@
 from random import randint
 
-
-#правила
+# правила
 RULES = 'Aswer "yes" if given number is prime. Otherwise answer "no".'
 
 
-#функция проверки на простое число
+# функция проверки на простое число
 def is_prime(number):
     if number < 2:         
         return False
@@ -14,8 +13,7 @@ def is_prime(number):
     if number % 2 == 0:
         return False
     
-
-    #проверяем нечетные делители от 3 до квадратного корня из числа
+    # проверяем нечетные делители от 3 до квадратного корня из числа
     for divisor in range(3, int(number ** 0.5) + 1, 2):
         if number % divisor == 0:
             return False

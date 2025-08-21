@@ -1,14 +1,12 @@
 from random import randint
 
-
-#правила
+# правила
 RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 # проверка на четность
 def is_even(num):
     return num % 2 == 0
-
 
 
 def generate_round():
