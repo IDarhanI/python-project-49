@@ -23,7 +23,7 @@ def calculate(num1, num2, operation):
 def generate_round():
     num1 = secrets.randbelow(50) + 1
     num2 = secrets.randbelow(50) + 1
-    operation = choice(OPERATIONS)
+    operation = secrets.choice(OPERATIONS)
     question = f"{num1} {operation} {num2}"
     correct_answer = calculate(num1, num2, operation)
     return question, str(correct_answer)
