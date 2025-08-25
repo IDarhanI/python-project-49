@@ -1,4 +1,6 @@
 from random import randint
+import secrets
+
 
 # правила
 RULES = "Find the greatest common divisor of given numbers."
