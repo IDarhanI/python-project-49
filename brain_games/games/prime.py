@@ -1,6 +1,4 @@
-from random import randint
 import secrets
-
 
 # правила
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'

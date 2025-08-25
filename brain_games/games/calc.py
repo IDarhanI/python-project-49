@@ -1,6 +1,4 @@
-from random import choice, randint
 import secrets
-
 
 # правила
 RULES = "What is the result of the expression?"

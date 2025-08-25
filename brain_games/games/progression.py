@@ -1,6 +1,4 @@
-from random import randint
 import secrets
-
 
 RULES = "What number is missing in the progression?"
 
