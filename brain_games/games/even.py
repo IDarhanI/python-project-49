@@ -10,7 +10,7 @@ def is_even(num):
 
 
 def generate_round():
-    number = randint(1, 100)
+    number = secrets.randbelow(100) + 1
     correct_answer = 'yes' if is_even(number) else 'no'
     return str(number), correct_answer
 

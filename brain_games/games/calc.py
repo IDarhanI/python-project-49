@@ -19,8 +19,8 @@ def calculate(num1, num2, operation):
 
 # генерация чисел, выбор операции, вопрос, вычисление ответа, возврат результата
 def generate_round():
-    num1 = randint(1, 50)
-    num2 = randint(1, 50)
+    num1 = secrets.randbelow(50) + 1
+    num2 = secrets.randbelow(50) + 1
     operation = choice(OPERATIONS)
     question = f"{num1} {operation} {num2}"
     correct_answer = calculate(num1, num2, operation)

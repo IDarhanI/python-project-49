@@ -14,18 +14,18 @@ def generate_progression(start, step, length):
 
 # выбирает случайным образом параметры прогрессии
 def generate_round():
-    start = randint(1, 20)
-    step = randint(1, 10)
-    length = randint(5, 10)
+    start = secrets.randbelow(20) + 1
+    step = secrets.randbelow(10) + 1
+    length = secrets.randbelow(6) + 5 
 
     # создается прогрессия на основе этих параметров
     progression = generate_progression(start, step, length)
     # выбирается случайный индекс
-    hidden_index = randint(0, length - 1)
+    hidden_index = secrets.randbelow(length)
     # число которое будет скрыто
     correct_answer = progression[hidden_index]
     # заменяем hide_index на ".."
     progression[hidden_index] = ".."
     question = " ".join(progression)
 
-    return question, correct_answer
+    return question, str(correct_answer)

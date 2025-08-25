@@ -12,8 +12,8 @@ def calculeate_gcd(a, b):
 
 
 def generate_round():
-    a = randint(1, 100)
-    b = randint(1, 100)
+    a = secrets.randbelow(100) + 1
+    b = secrets.randbelow(100) + 1
     question = f"{a} {b}"
     correct_answer = calculeate_gcd(a, b)
     return question, str(correct_answer)
