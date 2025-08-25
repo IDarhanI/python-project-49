@@ -7,3 +7,13 @@ https://asciinema.org/a/FC2LfVShsnSmTXjh4GehRKClQ
 https://asciinema.org/a/NsF9A2yRmj2DuzPDieM0m0cxy
 https://asciinema.org/a/JDsfoAKliufHEUqAjD878CcVj
 https://asciinema.org/a/QTGol8346daBahUq4pbnhYaMq
+https://sonarcloud.io/api/project_badges/measure?project=IDarhanI_python-project-49&metric=alert_status
+https://sonarcloud.io/api/project_badges/measure?project=IDarhanI_python-project-49&metric=bugs
+https://sonarcloud.io/api/project_badges/measure?project=IDarhanI_python-project-49&metric=code_smells
+https://sonarcloud.io/api/project_badges/measure?project=IDarhanI_python-project-49&metric=duplicated_lines_density
+https://sonarcloud.io/api/project_badges/measure?project=IDarhanI_python-project-49&metric=ncloc
+https://sonarcloud.io/api/project_badges/measure?project=IDarhanI_python-project-49&metric=reliability_rating
+https://sonarcloud.io/api/project_badges/measure?project=IDarhanI_python-project-49&metric=security_rating
+https://sonarcloud.io/api/project_badges/measure?project=IDarhanI_python-project-49&metric=sqale_index
+https://sonarcloud.io/api/project_badges/measure?project=IDarhanI_python-project-49&metric=sqale_rating
+https://sonarcloud.io/api/project_badges/measure?project=IDarhanI_python-project-49&metric=vulnerabilities
